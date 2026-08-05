@@ -6,7 +6,25 @@
     alt="Waving hand"
   />
 </h1>
-🔭 I’m currently working on<br>- A Chaos Engineering Platform for cloud-native systems.<br>- Moshpit – a social music platform built with Next.js, FastAPI, WebSockets, and AWS.<br>- Building scalable backend services and DevOps workflows with Python and cloud-native technologies.<br><br>🤝 I’m looking to collaborate on<br>- Open-source projects in DevOps, Cloud Computing, Platform Engineering, and Backend Development.<br>- Python, FastAPI, Kubernetes, Docker, and AWS-based applications.<br>- Projects involving distributed systems, observability, and automation.<br><br>🤝 I’m looking for help with<br>- Advanced Kubernetes and Service Mesh (Istio).<br>- Chaos Engineering and Site Reliability Engineering (SRE).<br>- Distributed systems design, cloud architecture, and production-scale infrastructure.<br>- Open-source contributions and large-scale backend engineering.<br><br>🌱 I’m currently learning<br>- Python & FastAPI<br>- Docker & Kubernetes<br>- AWS Cloud (EC2, IAM, S3, VPC, CloudWatch, ECR)<br>- Jenkins, GitHub Actions & CI/CD<br>- Terraform & Infrastructure as Code<br>- Linux, Networking & System Design<br>- PostgreSQL, Redis & MongoDB<br>- Chaos Engineering, Observability & Platform Engineering<br><br>💬 Ask me about<br>- Python<br>- FastAPI<br>- Docker<br>- Kubernetes<br>- AWS<br>- CI/CD<br>- Jenkins<br>- Linux<br>- Backend Development<br>- Git & GitHub<br><br>⚡ Fun fact<br>I enjoy building projects that combine software engineering, cloud infrastructure, and automation—from startup products to resilient distributed systems. I'm always exploring new technologies through hands-on projects and open-source contributions.
+
+🔭 <b>I’m currently working on</b><br>
+- A Chaos Engineering Platform.<br>
+- Moshpit – a cloud-native social music platform.<br><br>
+
+🤝 <b>I’m looking to collaborate on</b><br>
+- DevOps, Cloud, Backend & Open Source projects.<br><br>
+
+🫱🏻‍🫲🏽 <b>I’m looking for help with</b><br>
+- Kubernetes, Chaos Engineering & Distributed Systems.<br><br>
+
+🌱 <b>I’m currently learning</b><br>
+- Python, FastAPI, Docker, Kubernetes, AWS, Terraform & CI/CD.<br><br>
+
+💬 <b>Ask me about</b><br>
+- Python • FastAPI • Docker • AWS • Kubernetes • Linux • Git<br><br>
+
+⚡ <b>Fun fact</b><br>
+I enjoy building cloud-native applications, backend systems, and resilient infrastructure.
 
 
 ## 🌐 Socials:
