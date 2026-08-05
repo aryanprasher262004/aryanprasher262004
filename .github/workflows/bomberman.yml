@@ -1,0 +1,66 @@
+name: Bomberman Contribution Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # every 12 hours
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - ".github/workflows/bomberman.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: main/package-lock.json
+
+      - name: Install dependencies
+        working-directory: main
+        run: npm ci
+
+      - name: Build TypeScript
+        working-directory: main
+        run: npm run build
+
+      - name: Generate bomberman.svg
+        working-directory: main
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run generate
+
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output-branch
+          fetch-depth: 0
+
+      - name: Publish SVG to output branch
+        run: |
+          cp main/output/bomberman.svg output-branch/bomberman.svg
+          cd output-branch
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bomberman.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: regenerate bomberman.svg [skip ci]"
+            git push
+          fi

@@ -1,0 +1,19 @@
+{
+  "name": "github-bomberman",
+  "version": "1.0.0",
+  "description": "Bomberman-themed animated SVG for a GitHub profile README, driven by contribution data.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "generate": "node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.9"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "@types/node-fetch": "^2.6.11"
+  }
+}
