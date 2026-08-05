@@ -17,7 +17,7 @@
   <code>aryan@cloud:~$ building reliable systems by breaking them safely</code>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aryanprasher262004/aryanprasher262004/output/pacman-contribution-graph.svg" />
+  <img src="https://raw.githubusercontent.com/aryanprasher262004/aryanprasher262004/output/bomberman.svg" alt="Bomberman contribution animation" />
 </p>
 
 ## 🌐 Socials:
