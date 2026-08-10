@@ -16,10 +16,23 @@
 <p align="center">
   <code>aryan@cloud:~$ building reliable systems by breaking them safely</code>
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aryanprasher262004/aryanprasher262004/output/bomberman.svg" alt="Bomberman contribution animation" />
-</p>
 
+## My Contribution Graph
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/aryanprasher262004/aryanprasher262004/output/pacman-contribution-graph-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/aryanprasher262004/aryanprasher262004/output/pacman-contribution-graph.svg"
+  />
+  <img
+    alt="Pac-Man contribution graph"
+    src="https://raw.githubusercontent.com/aryanprasher262004/aryanprasher262004/output/pacman-contribution-graph.svg"
+  />
+</picture>
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/ryVq5yWGGx) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aryan_prasher26) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@MrCyClonE26) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:aryanprasher262004@gmail.com) 
 
