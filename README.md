@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:22d3ee&height=220&section=header&text=Aryan%20Prasher&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=DevOps%20%7C%20Cloud%20%7C%20Backend%20Engineering&descAlignY=55&descSize=20" />
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=700&lines=Building+Chaos+Engineering+Platforms;Creating+Cloud-Native+Backend+Systems;Learning+AWS%2C+Docker%2C+Kubernetes+%26+Terraform;Automating+Everything+with+CI%2FCD"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=700&lines=Building+AutoResilience+a+Chaos+Engineering+Platforms;Creating+Cloud-Native+Backend+Systems;Learning+AWS%2C+Docker%2C+Kubernetes+%26+Terraform;Automating+Everything+with+CI%2FCD"
   alt="Typing animation"
 />
 
